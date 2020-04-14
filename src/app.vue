@@ -1,0 +1,11 @@
+<template>
+  <div class="app">hello world</div>
+</template>
+
+<script>
+export default {
+  name: 'app'
+};
+</script>
+<style >
+</style>
