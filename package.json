@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/caizhiyuannn/w3schools-vue-components/issues"
   },
-  "homepage": "https://github.com/caizhiyuannn/w3schools-vue-components#readme"
+  "homepage": "https://github.com/caizhiyuannn/w3schools-vue-components#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
 }
