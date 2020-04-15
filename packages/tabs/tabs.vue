@@ -5,7 +5,8 @@
         class="w3c__tab_button"
         v-for="(vnode, index) of panels"
         :key="index"
-        @click="currentName = vnode.name"
+        @click="actionBehavior === 'click' ? currentName = vnode.name: null"
+        @mouseover="actionBehavior === 'mouseover' ? currentName = vnode.name: null"
         :class="{'is-active': currentName === vnode.name}"
       >{{ vnode.name }}</button>
     </div>
@@ -25,6 +26,10 @@ export default {
     },
     position: {
       default: 'top',
+      type: String
+    },
+    actionBehavior: {
+      default: 'click',
       type: String
     }
   },

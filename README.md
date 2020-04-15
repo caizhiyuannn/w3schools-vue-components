@@ -18,7 +18,7 @@ Vue 实现灵感来源于 [Element](https://github.com/ElemeFE/element)
 - [x] Vertical Tabs（垂直标签页）
 - [x] Tab Headers（头部标签页）
 - [ ] Full Page Tabs（占满全页式标签页）
-- [ ] Hover Tabs（鼠标移动触发对应标签页）
+- [x] Hover Tabs（鼠标移动触发对应标签页）
 - [ ] Top Navigation（导航栏）
 - [ ] Responsive Topnav（响应式导航栏）
 - [ ] Navbar with Icons（有图标的导航栏）
