@@ -54,6 +54,7 @@ export default {
           panes.every((pane, index) => pane === this.panels[index])
         );
 
+        // this.panels 赋值会触发更新，必须做判断，否则将会触发循环触发vue生命周期
         if (isForceUpdate || panesChanged) {
           this.panels = panes;
         }
