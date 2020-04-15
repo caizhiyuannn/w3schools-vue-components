@@ -1,10 +1,20 @@
 <template>
-  <div class="app">hello world</div>
+  <div class="app">
+    <accordion-example></accordion-example>
+    <tabs-example></tabs-example>
+  </div>
 </template>
 
 <script>
+import Tabs from './views/tabs';
+import Accordion from './views/accordion';
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    'tabs-example': Tabs,
+    'accordion-example': Accordion
+  }
 };
 </script>
 <style >
