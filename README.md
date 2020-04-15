@@ -15,8 +15,8 @@ Vue 实现灵感来源于 [Element](https://github.com/ElemeFE/element)
 
 - [x] Accordion（手风琴面板）
 - [x] Tabs（标签页）
-- [ ] Vertical Tabs（垂直标签页）
-- [ ] Tab Headers（头部标签页）
+- [x] Vertical Tabs（垂直标签页）
+- [x] Tab Headers（头部标签页）
 - [ ] Full Page Tabs（占满全页式标签页）
 - [ ] Hover Tabs（鼠标移动触发对应标签页）
 - [ ] Top Navigation（导航栏）
