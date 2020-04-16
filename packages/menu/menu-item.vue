@@ -37,6 +37,7 @@ export default {
   display: flex;
 }
 .w3c__menu-item a {
+  display: flex;
   padding: 14px 16px;
   text-align: center;
   text-decoration: none;
