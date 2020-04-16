@@ -32,8 +32,8 @@ Vue 实现灵感来源于 [Element](https://github.com/ElemeFE/element)
 - [x] Hover Tabs（鼠标移动触发对应标签页）
 - [x] Top Navigation（导航栏）
 - [x] Responsive Topnav（响应式导航栏）
-- [ ] Navbar with Icons（有图标的导航栏）
-- [ ] Search Menu（可搜索菜单）
+- [x] Navbar with Icons（有图标的导航栏）
+- [x] Search Menu（可搜索菜单）
 - [ ] Search Bar（导航栏+搜索功能）
 - [ ] Fixed Sidebar（固定导航）
 - [ ] Side Navigation（侧边导航栏）
