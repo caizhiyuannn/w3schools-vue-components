@@ -43,7 +43,9 @@ export default {
     calcPanelInstances(isForceUpdate = false) {
       if (this.$slots.default) {
         const panelSlots = this.$slots.default.filter(
-          vn => vn.componentOptions.Ctor.options.name === 'w3cTabPanel'
+          vn =>
+            vn.componentOptions &&
+            vm.componentOptions.Ctor.options.name === 'w3cTabPanel'
         );
         const panes = panelSlots.map(
           ({ componentInstance }) => componentInstance

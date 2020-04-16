@@ -17,7 +17,7 @@ export default {
     calcComponentInstance() {
       if (this.$slots.default) {
         const menuItemSlots = this.$slots.default.filter(
-          vm => vm.componentOptions.Ctor.options.name === 'w3cMenuItem'
+          vm => vm.componentOptions && vm.componentOptions.Ctor.options.name === 'w3cMenuItem'
         );
 
         const items = menuItemSlots.map(({ componentInstance }, index) => {
@@ -52,5 +52,6 @@ export default {
   display: flex;
   overflow: hidden;
   background: #333;
+  color: white;
 }
 </style>
