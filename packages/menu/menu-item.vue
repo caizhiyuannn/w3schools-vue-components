@@ -39,6 +39,7 @@ export default {
 .w3c__menu-item a {
   display: flex;
   padding: 14px 16px;
+  width: 100%;
   text-align: center;
   text-decoration: none;
   color: #f2f2f2;

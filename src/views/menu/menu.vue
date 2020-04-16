@@ -18,6 +18,23 @@
         <span class="material-icons">menu</span>
       </div>
     </w3c-menu>
+
+    <h3>responsive top navigation with icons example</h3>
+    <hr />
+    <w3c-menu>
+      <w3c-menu-item @click="action">
+        <span class="material-icons menu-item-icon">bookmark</span>
+        <span>item1</span>
+      </w3c-menu-item>
+      <w3c-menu-item>
+        <span class="material-icons menu-item-icon">extension</span>
+        <span>item1</span>
+      </w3c-menu-item>
+      <w3c-menu-item>
+        <span class="material-icons menu-item-icon">favorite</span>
+        <span>item1</span>
+      </w3c-menu-item>
+    </w3c-menu>
   </div>
 </template>
 
@@ -45,6 +62,10 @@ export default {
 .responsive-menu .menu-icon {
   margin-left: auto;
   display: none;
+}
+
+.menu-item-icon {
+  padding: 0 4px;
 }
 
 @media screen and (max-width: 600px) {
