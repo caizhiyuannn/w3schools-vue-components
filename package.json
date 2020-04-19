@@ -4,7 +4,8 @@
   "description": "https://www.w3schools.com HOWTO",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./build/webpack.dev.js --watch"
+    "start": "webpack-dev-server --config ./build/webpack.dev.js --watch",
+    "build:page": "webpack --config ./build/webpack.page.js"
   },
   "repository": {
     "type": "git",
