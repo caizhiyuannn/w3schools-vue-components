@@ -7,16 +7,18 @@
 </template>
 
 <script>
+import Card from './components/card';
 import Tabs from './views/tabs';
 import Accordion from './views/accordion';
 import Menu from './views/menu/menu.vue';
 import MenuSearch from './views/menu/menu-search';
 import MenuSide from './views/menu/menu-side';
-import Card from './components/card';
+import MenuSidePush from './views/menu/sidenav-push';
 
 export default {
   name: 'app',
   components: {
+    [MenuSidePush.name]: MenuSidePush,
     [Card.name]: Card,
     [MenuSide.name]: MenuSide,
     'menu-search-example': MenuSearch,
@@ -31,7 +33,8 @@ export default {
         Tabs.name,
         Menu.name,
         MenuSearch.name,
-        MenuSide.name
+        MenuSide.name,
+        MenuSidePush.name
       ]
     };
   },
