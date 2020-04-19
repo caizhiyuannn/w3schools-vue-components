@@ -31,6 +31,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.menu-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
 .menu {
   display: flex;
   flex-direction: column;
@@ -55,7 +64,7 @@ export default {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: width 0.5s;
+  transition: width 0.5s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .fade-enter,
