@@ -14,10 +14,12 @@ import Menu from './views/menu/menu.vue';
 import MenuSearch from './views/menu/menu-search';
 import MenuSide from './views/menu/menu-side';
 import MenuSidePush from './views/menu/sidenav-push';
+import MenuSidePushOpacity from './views/menu/sidenav-push-opacity';
 
 export default {
   name: 'app',
   components: {
+    [MenuSidePushOpacity.name]: MenuSidePushOpacity,
     [MenuSidePush.name]: MenuSidePush,
     [Card.name]: Card,
     [MenuSide.name]: MenuSide,
@@ -34,7 +36,8 @@ export default {
         Menu.name,
         MenuSearch.name,
         MenuSide.name,
-        MenuSidePush.name
+        MenuSidePush.name,
+        MenuSidePushOpacity.name
       ]
     };
   },
