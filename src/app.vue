@@ -15,10 +15,12 @@ import MenuSearch from './views/menu/menu-search';
 import MenuSide from './views/menu/menu-side';
 import MenuSidePush from './views/menu/sidenav-push';
 import MenuSidePushOpacity from './views/menu/sidenav-push-opacity';
+import MenuSlideDown from './views/menu/slide-down';
 
 export default {
   name: 'app',
   components: {
+    [MenuSlideDown.name]: MenuSlideDown,
     [MenuSidePushOpacity.name]: MenuSidePushOpacity,
     [MenuSidePush.name]: MenuSidePush,
     [Card.name]: Card,
@@ -37,7 +39,8 @@ export default {
         MenuSearch.name,
         MenuSide.name,
         MenuSidePush.name,
-        MenuSidePushOpacity.name
+        MenuSidePushOpacity.name,
+        MenuSlideDown.name
       ]
     };
   },
