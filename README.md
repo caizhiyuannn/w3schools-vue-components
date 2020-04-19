@@ -1,8 +1,8 @@
 # w3schools-vue-components
 
-学习 [w3schools](https://www.w3schools.com) HOWTO， 使用 Vue 实现。
+学习 [w3schools](https://www.w3schools.com/howto) HOWTO， 使用 Vue 实现。
 
-Vue 实现灵感来源于 [Element](https://github.com/ElemeFE/element)
+Vue 实现许多灵感源于 [Element](https://github.com/ElemeFE/element)
 
 ## 源码目录
 
