@@ -4,16 +4,16 @@
     <hr />
     <div class="content">
       <w3c-menu class="menu" :class="{'menu-width': openMenuActive}">
-        <div class="menu-button" role="button" @click="openMenu()">
-          <span class="material-icons">close</span>
+        <div>
+          <span class="material-icons menu-button" role="button" @click="openMenu()">close</span>
         </div>
         <w3c-menu-item>menu1</w3c-menu-item>
         <w3c-menu-item>menu2</w3c-menu-item>
         <w3c-menu-item>menu3</w3c-menu-item>
       </w3c-menu>
       <main :class="{'main-left': openMenuActive}">
-        <div class="menu-button" role="button" @click="openMenu()">
-          <span class="material-icons">menu</span>
+        <div>
+          <span class="material-icons menu-button" role="button" @click="openMenu()">menu</span>
         </div>
         <div
           class="conte"
@@ -65,7 +65,6 @@ export default {
     display: flex;
     justify-content: flex-end;
     padding: 14px 16px;
-    cursor: pointer;
     &:hover {
       color: #ddd;
     }
