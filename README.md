@@ -4,7 +4,7 @@
 
 Vue 实现许多灵感源于 [Element](https://github.com/ElemeFE/element)
 
-[示例页面](/w3schools-vue-components/docs/index.html)
+[示例页面](http://caizhiyuannn.js.org/w3schools-vue-components/docs/index.html)
 
 ## 源码目录
 
