@@ -50,8 +50,8 @@ Vue 实现许多灵感源于 [Element](https://github.com/ElemeFE/element)
 - [ ] Right Aligned Menu Links（右对齐菜单）
 - [ ] Centered Menu Link（居中菜单）
 - [ ] Equal Width Menu Links（等宽菜单）
-- [ ] Fixed Menu（固定菜单）
-- [ ] Slide Down Bar on Scroll（下拉菜单）
+- [x] Fixed Menu（固定菜单）
+- [x] Slide Down Bar on Scroll（下拉菜单）
 - [ ] Hide Navbar on Scroll（滚动隐藏菜单）
 - [ ] Shrink Navbar on Scroll（滚动可收缩）
 - [ ] Sticky Navbar（固定导航栏）
