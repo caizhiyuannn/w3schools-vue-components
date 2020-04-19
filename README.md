@@ -36,7 +36,7 @@ Vue 实现灵感来源于 [Element](https://github.com/ElemeFE/element)
 - [x] Search Menu（可搜索菜单）
 - [ ] Search Bar（导航栏+搜索功能）
 - [ ] Fixed Sidebar（固定导航）
-- [ ] Side Navigation（侧边导航栏）
+- [x] Side Navigation（侧边导航栏）
 - [ ] Responsive Sidebar（响应式导航菜单）
 - [ ] Fullscreen Navigation（全屏导航页）
 - [ ] Off-Canvas Menu（？？？）
