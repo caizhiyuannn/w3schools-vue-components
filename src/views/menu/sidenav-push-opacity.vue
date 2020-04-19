@@ -4,23 +4,23 @@
     <hr />
     <div class="content">
       <w3c-menu class="menu" :class="{'menu-width': openMenuActive}">
-        <div class="menu-button" role="button" @click="openMenu()">
-          <span class="material-icons">close</span>
+        <div>
+          <span class="material-icons menu-button" role="button" @click="openMenu()">close</span>
         </div>
         <w3c-menu-item>menu1</w3c-menu-item>
         <w3c-menu-item>menu2</w3c-menu-item>
         <w3c-menu-item>menu3</w3c-menu-item>
       </w3c-menu>
       <main :class="{'main-left': openMenuActive}">
-        <div class="menu-button" role="button" @click="openMenu()">
-          <span class="material-icons">menu</span>
+        <div>
+          <span class="material-icons menu-button" role="button" @click="openMenu()">menu</span>
         </div>
         <div
           class="right"
         >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo odio cum nam repellendus ipsum ullam magnam accusamus non. Perferendis sint quaerat debitis fugit assumenda ad in odio cum quos veniam. Dignissimos ab corporis dolorem mollitia enim consequuntur praesentium cumque placeat deserunt, illo quisquam? Omnis repudiandae iste doloribus maiores, quod, dignissimos adipisci sapiente fugiat doloremque laboriosam amet ab. Nisi consectetur harum saepe voluptates voluptatum modi illum reiciendis magni non veritatis vero repellendus eligendi eum, maxime quam pariatur ab rem placeat praesentium explicabo. Optio, assumenda quibusdam eius voluptatem alias officia rem molestiae error eum. Obcaecati autem porro, eveniet provident, consequuntur quaerat id expedita quo, nihil fuga repellat voluptate sint possimus impedit officia rerum! Quidem modi illo omnis incidunt natus nemo quisquam molestias! Magni tempora quaerat sequi, commodi vitae deserunt porro.</div>
       </main>
     </div>
-    <div :class="{wrapper: openMenuActive}"></div>
+    <div :class="{wrapper: openMenuActive}" @click="openMenu()"></div>
   </div>
 </template>
 
@@ -70,7 +70,6 @@ export default {
     display: flex;
     justify-content: flex-end;
     padding: 14px 16px;
-    cursor: pointer;
     &:hover {
       color: #ddd;
     }
