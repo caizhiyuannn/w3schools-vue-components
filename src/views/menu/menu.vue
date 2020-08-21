@@ -1,6 +1,6 @@
 <template>
   <div class="menu">
-    <h3>menu examples</h3>
+    <h3>菜单示例(menu)</h3>
     <hr />
     <w3c-menu>
       <w3c-menu-item @click="action">item1</w3c-menu-item>
@@ -8,7 +8,7 @@
       <w3c-menu-item>item1</w3c-menu-item>
     </w3c-menu>
 
-    <h3>responsive top navigation example</h3>
+    <h3>响应式菜单示例(responsive top navigation)</h3>
     <hr />
     <w3c-menu class="responsive-menu" :class="{active: menuActive}">
       <w3c-menu-item @click="action" class="menu-item">item1</w3c-menu-item>

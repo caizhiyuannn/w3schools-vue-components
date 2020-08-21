@@ -1,6 +1,6 @@
 <template>
   <div class="sidenav">
-    <h3>sidenav push example</h3>
+    <h3>侧边栏(sidenav push)</h3>
     <hr />
     <div class="content">
       <w3c-menu class="menu" :class="{'menu-width': openMenuActive}">

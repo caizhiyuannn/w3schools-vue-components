@@ -1,6 +1,6 @@
 <template>
   <div class="menu-search">
-    <h3>menu search example</h3>
+    <h3>菜单搜索示例(menu search)</h3>
     <hr />
     <div class="menu-flex">
       <div class="left-side">

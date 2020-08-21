@@ -1,6 +1,6 @@
 <template>
   <div class="accordion">
-    <h3>accordion examples</h3>
+    <h3>手风琴示例(accordion)</h3>
     <hr />
     <w3c-accordion title="testing">
       <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptate deleniti a? Repudiandae nesciunt eum consequuntur veniam ipsa, dignissimos explicabo!</div>

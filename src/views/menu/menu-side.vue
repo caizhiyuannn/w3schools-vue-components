@@ -16,31 +16,34 @@
         <w3c-menu-item>menu4</w3c-menu-item>
       </w3c-menu>
     </transition>
+    <div class="content">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+      aperiam voluptatum ipsa amet? Quos eligendi rerum a cumque ipsa, ex quae
+      delectus? Error consectetur illum maiores eius fugit iste neque.
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'menu-side-example',
+  name: "menu-side-example",
   data() {
     return {
-      show: false
+      show: false,
     };
-  }
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-.menu-wrapper {
+.menu-side {
   position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
+  height: 400px;
   width: 100%;
+  overflow: hidden;
 }
 .menu {
+  position: absolute;
   display: flex;
   flex-direction: column;
   width: 250px;
