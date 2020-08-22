@@ -78,7 +78,7 @@ import Menu from "packages/menu/menu";
 import MenuItem from "packages/menu/menu-item";
 
 export default {
-  name: "slide-down-on-scroll-example",
+  name: "ExampleSlideDownOnScroll",
   components: {
     w3cmenu: Menu,
     "menu-item": MenuItem,

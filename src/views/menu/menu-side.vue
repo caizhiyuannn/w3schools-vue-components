@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: "menu-side-example",
+  name: "ExampleMenuSide",
   data() {
     return {
       show: false,

@@ -39,7 +39,7 @@
 
 <script>
 export default {
-  name: 'tabs-example'
+  name: 'ExampleTabs'
 };
 </script>
 

@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'w3c-card'
+  name: 'W3cCard'
 };
 </script>
 <style lang="scss" scoped>

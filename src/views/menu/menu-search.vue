@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'menu-search-example',
+  name: 'ExampleMenuSearch',
   data() {
     return {
       searchText: '',

@@ -52,7 +52,7 @@
 import MenuItem from "packages/menu/menu-item";
 import Menu from "packages/menu/menu";
 export default {
-  name: "sidenav-push-opacity",
+  name: "ExampleSidenavPushOpacity",
   components: {
     "w3c-menu": Menu,
     "w3c-menu-item": MenuItem,

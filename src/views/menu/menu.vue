@@ -40,7 +40,7 @@
 
 <script>
 export default {
-  name: 'menu-example',
+  name: 'ExampleMenu',
   data() {
     return {
       menuActive: false

@@ -13,7 +13,7 @@
 
 <script>
 export default {
-    name: 'accordion-example'
+    name: 'ExampleAccordion'
 };
 </script>
 
