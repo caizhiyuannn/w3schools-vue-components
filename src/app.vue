@@ -7,28 +7,30 @@
 </template>
 
 <script>
-import Card from './components/card';
-import Tabs from './views/tabs';
-import Accordion from './views/accordion';
-import Menu from './views/menu/menu.vue';
-import MenuSearch from './views/menu/menu-search';
-import MenuSide from './views/menu/menu-side';
-import MenuSidePush from './views/menu/sidenav-push';
-import MenuSidePushOpacity from './views/menu/sidenav-push-opacity';
-import MenuSlideDown from './views/menu/slide-down';
+import Card from "./components/card";
+import Tabs from "./views/tabs";
+import Accordion from "./views/accordion";
+import Menu from "./views/menu/menu.vue";
+import MenuSearch from "./views/menu/menu-search";
+import MenuSide from "./views/menu/menu-side";
+import MenuSidePush from "./views/menu/sidenav-push";
+import MenuSidePushOpacity from "./views/menu/sidenav-push-opacity";
+import MenuSlideDown from "./views/menu/slide-down";
+import ExamplePagination from "./views/pagination";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     [MenuSlideDown.name]: MenuSlideDown,
     [MenuSidePushOpacity.name]: MenuSidePushOpacity,
     [MenuSidePush.name]: MenuSidePush,
     [Card.name]: Card,
     [MenuSide.name]: MenuSide,
-    'menu-search-example': MenuSearch,
-    'menu-example': Menu,
-    'tabs-example': Tabs,
-    'accordion-example': Accordion
+    "menu-search-example": MenuSearch,
+    "menu-example": Menu,
+    "tabs-example": Tabs,
+    "accordion-example": Accordion,
+    ExamplePagination,
   },
   data() {
     return {
@@ -40,16 +42,16 @@ export default {
         MenuSide.name,
         MenuSidePush.name,
         MenuSidePushOpacity.name,
-        MenuSlideDown.name
-      ]
+        MenuSlideDown.name,
+        ExamplePagination.name,
+      ],
     };
   },
   methods: {
     action(event) {
-      console.log('action...', event);
-    }
-  }
+      console.log("action...", event);
+    },
+  },
 };
 </script>
-<style >
-</style>
+<style></style>
