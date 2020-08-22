@@ -49,6 +49,9 @@ export default {
   padding: 12px 16px;
   cursor: pointer;
   outline: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 
 @include button-type(success, #4caf50, #46a049, #179b19);
