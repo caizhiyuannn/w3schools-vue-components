@@ -10,6 +10,7 @@ import ExamplePagination from "./views/pagination";
 import ExampleButton from "./views/button";
 import ExampleButtonGroup from "./views/button/button-group.vue";
 import ExampleCarousel from "./views/carousel";
+import ExampleProgress from './views/progress.vue';
 
 export const genNames = () => ({
   ExampleTabs,
@@ -24,4 +25,5 @@ export const genNames = () => ({
   ExampleButton,
   ExampleButtonGroup,
   ExampleCarousel,
+  ExampleProgress,
 });

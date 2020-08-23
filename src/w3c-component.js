@@ -6,6 +6,7 @@ import w3cPagination from "packages/pagination";
 import w3cButton from "packages/button";
 import w3cButtonGroup from "packages/button-group";
 import { w3cCarousel, w3cCarouselItem } from "packages/carousel";
+import w3cProgress from 'packages/progress';
 
 const components = [
   w3cAccordion,
@@ -18,6 +19,7 @@ const components = [
   w3cButtonGroup,
   w3cCarousel,
   w3cCarouselItem,
+  w3cProgress,
 ];
 
 export function loadW3CComponent(Vue) {
