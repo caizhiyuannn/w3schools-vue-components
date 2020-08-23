@@ -5,6 +5,7 @@ import { w3cMenu, w3cMenuItem } from "packages/menu";
 import w3cPagination from "packages/pagination";
 import w3cButton from "packages/button";
 import w3cButtonGroup from "packages/button-group";
+import { w3cCarousel, w3cCarouselItem } from "packages/carousel";
 
 const components = [
   w3cAccordion,
@@ -15,6 +16,8 @@ const components = [
   w3cPagination,
   w3cButton,
   w3cButtonGroup,
+  w3cCarousel,
+  w3cCarouselItem,
 ];
 
 export function loadW3CComponent(Vue) {

@@ -9,6 +9,7 @@ import ExampleSlideDownOnScroll from "./views/menu/slide-down-on-scroll.vue";
 import ExamplePagination from "./views/pagination";
 import ExampleButton from "./views/button";
 import ExampleButtonGroup from "./views/button/button-group.vue";
+import ExampleCarousel from "./views/carousel";
 
 export const genNames = () => ({
   ExampleTabs,
@@ -22,4 +23,5 @@ export const genNames = () => ({
   ExamplePagination,
   ExampleButton,
   ExampleButtonGroup,
+  ExampleCarousel,
 });
