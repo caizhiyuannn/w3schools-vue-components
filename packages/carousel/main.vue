@@ -1,5 +1,10 @@
 <template>
-  <div class="carousel" :style="{ width, height }">
+  <div
+    class="carousel"
+    :style="{ width, height }"
+    @mouseenter="pausePlay"
+    @mouseleave="startPlay"
+  >
     <div class="carousel__container" ref="container">
       <slot></slot>
     </div>
@@ -24,11 +29,17 @@ export default {
       type: String,
       default: "200px",
     },
+    autoplay: {
+      type: Boolean,
+      default: true,
+    },
   },
   data() {
     return {
       items: [],
       rotateAngle: 0,
+      timer: null,
+      timeout: 5000,
     };
   },
   methods: {
@@ -62,11 +73,24 @@ export default {
       this.rotateAngle += theta;
       this.rotateY(this.rotateAngle);
     },
+    startPlay() {
+      if (this.timer !== null || !this.autoplay) return;
+      this.timer = setInterval(() => {
+        this.next();
+      }, this.timeout);
+    },
+    pausePlay() {
+      if (this.timer) {
+        clearInterval(this.timer);
+        this.timer = null;
+      }
+    },
   },
   mounted() {
     this.calcItems();
     this.setTransform();
     this.updatePositions();
+    this.autoplay && this.startPlay();
   },
 };
 </script>
